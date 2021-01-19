@@ -69,4 +69,6 @@ cd DevNetAutomationExchange
 
 and now you should be ready to get going!
 
+More information in [guide](https://developer.cisco.com/docs/pyats-getting-started/) on how to install it and get started with it.
+
 

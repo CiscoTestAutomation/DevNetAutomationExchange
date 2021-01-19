@@ -1,4 +1,6 @@
-[![published](https://pubhub.devnetcloud.com/media/pyats-genie-docs/docs/imgs/pyats.png#developer.cisco.com)
+[image](https://pubhub.devnetcloud.com/media/pyats-genie-docs/docs/imgs/pyats.png#developer.cisco.com)
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/CiscoTestAutomation/DevNetAutomationExchange)
+
 
 # pyATS DevNet Automation Exchange Submissions
 

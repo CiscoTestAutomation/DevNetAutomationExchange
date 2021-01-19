@@ -2,7 +2,7 @@
 
 Shut all the interfaces of a provided device
 
-![Theme](Theme.png)
+![Theme](https://github.com/CiscoTestAutomation/DevNetAutomationExchange/blob/main/ShutAllInterface/ShutAllInterface.svg)
  
 ## Use Case Description
 
@@ -26,11 +26,12 @@ Other ideas to enhance this script could be:
 
 ## Installation
 
-This script requires pyATS. Follow this [guide](https://developer.cisco.com/docs/pyats-getting-started/) on how to install it and get started with it.
+
+This script requires pyATS. Follow the instruction on the [previous page](../README.md).
 
 Then you will need a Testbed file. Follow this [guide](https://pubhub.devnetcloud.com/media/pyats-getting-started/docs/quickstart/manageconnections.html#) on how to create one.
 
-A testbed file is a way to represent your device. It contains the device name, credentials and ip address on how to reach it.
+A testbed file is a way to represent your devices. It contains the devices name, credentials and ip address on how to reach it. You can find a testbed example [here](testbed.yaml).
 
 ## Usage
 
@@ -47,9 +48,24 @@ python shutinterfaces.py --testbed-file testbed.yaml  --devices csr1000v-1 nx-os
 python shutinterfaces.py --testbed-file ../../training/genie-bootcamp/tb.yaml  --devices csr1000v-1 --exclude csr1000v-1:Loopback0,Loopback1
 ```
 
-Where `testbed.yaml` represents your testbed file.
+This script works on all Cisco main OS (XR, IOSXE, NXOS and IOS).
 
-This script should work on all Cisco main OS (XR, IOSXE, NXOS and IOS).
+![Theme](https://github.com/CiscoTestAutomation/DevNetAutomationExchange/blob/main/ShutAllInterface/Theme.png)
+
+## Arguments
+
+There is 3 arguments to this scripts
+
+```text
+--testbed-file: pyATS Testbed file (Mandatory argument)
+--devices: Space separed device name to shut interfaces on. Must exists in the testbed file (Mandatory argument)
+--exclude: Interfaces to NOT shut. Example --exclude device_name1:int1 int2 int3 device_name2:int3 int5 (Optional argument)
+
+```
+
+## DevNet Sandbox
+
+This Code Exchange will work on any DevNet sandbox - For example on the [CML Entreprise Lab](https://devnetsandbox.cisco.com/RM/Diagram/Index/45100600-b413-4471-b28e-b014eb824555?diagramType=Topology)
 
 ## Getting help
 

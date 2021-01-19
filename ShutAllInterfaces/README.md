@@ -8,13 +8,13 @@ Shut all the interfaces of a provided device
 
 > How can I shut all the interfaces on a specific device.
 
-At Cisco Live, an attendee asked me this very question. He had to shut multiple devices, but wanted to make sure it would not affect his production network. However, he did not want to waste his time shutting hundred to thousand of interfaces manually.
+At Cisco Live, an attendee asked me this very question. He had to shut multiple devices, but wanted to make sure it would not affect his production network. Though, he did not want to waste his time shutting thousand of interfaces manually.
 
-We sat together, and coded this small but very useful script.
+We sat together, and coded this small but very useful script. 
 
-This becomes very important when wanting to decomission a device. It allows to make sure the network is performing as expecting without this device operational. However, it can be brought back in a few seconds if needed.
+This script becomes very important when wanting to decomission a device. It allow to make sure the network is performing as expecting without this device being operational. However, it can be brought back in a few seconds if needed.
 
-The "Un shut" configuration is also provided at the end of the run, to quickly revert if needed.
+The "Un shut" configuration is provided at the end of the run, to quickly revert if needed.
 
 
 Other ideas to enhance this script could be:
@@ -22,7 +22,7 @@ Other ideas to enhance this script could be:
 * Take operation snapshot of the surounding device, to make sure nothing important has been lost. This would automatically let the user know of what has changed.
 * Connect to each device in parallel
 * Do the shut for each device in parallel
-* Modify if os is iosxe to use device.api - which are abstracted
+* Use [device.api](https://pubhub.devnetcloud.com/media/genie-feature-browser/docs/#/apis) to simplify the code and share re-usable libraries to pyATS.
 
 ## Installation
 

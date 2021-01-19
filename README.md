@@ -2,7 +2,7 @@
 
 # pyATS DevNet Automation Exchange Submissions
 
-This repository contains all pyATS DevNet Automation Exchange submission. Each submission requires pyATS install.
+This repository contains all pyATS DevNet Automation Exchange submission.
 
 ## General Information
 
@@ -11,7 +11,6 @@ This repository contains all pyATS DevNet Automation Exchange submission. Each s
   - Getting Started: https://developer.cisco.com/docs/pyats-getting-started/
   - API Browser: https://pubhub.devnetcloud.com/media/genie-feature-browser/docs/#/
 - Support Email: pyats-support-ext@cisco.com
-> pip install pyats[full]
 
 ## Repository content
 

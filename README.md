@@ -4,12 +4,6 @@
 
 This repository contains all pyATS DevNet Automation Exchange submission. Each submission requires pyATS install.
 
-> pip install pyats[full]
-
-## Repository content
-
-* ShutAllInterface: Shut all interfaces on specific devices
-
 ## General Information
 
 - pyATS/Genie Portal: https://cs.co/pyats
@@ -17,6 +11,11 @@ This repository contains all pyATS DevNet Automation Exchange submission. Each s
   - Getting Started: https://developer.cisco.com/docs/pyats-getting-started/
   - API Browser: https://pubhub.devnetcloud.com/media/genie-feature-browser/docs/#/
 - Support Email: pyats-support-ext@cisco.com
+> pip install pyats[full]
+
+## Repository content
+
+* [ShutAllInterface](https://github.com/CiscoTestAutomation/DevNetAutomationExchange/tree/main/ShutAllInterface): Shut all interfaces on specific devices
 
 ## Requirements
 

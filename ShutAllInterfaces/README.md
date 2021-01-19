@@ -2,7 +2,7 @@
 
 Shut all the interfaces of a provided device
 
-![add-image-here]()
+![Theme](Theme.png)
  
 ## Use Case Description
 
